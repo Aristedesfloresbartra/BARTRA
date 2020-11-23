@@ -1,0 +1,113 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+   
+    
+body{
+    margin:0;
+    min-height: 100vh;
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
+    
+}   
+
+.body{
+    width: 98%;
+    margin-top: 50px;
+}
+
+.todo_enlace{
+    
+    display:flex;
+    justify-content: center;
+    
+}
+.enlaces{
+    
+    display: flex;
+    justify-content:space-around;
+    background: black;
+    width: 89%;
+    padding: .8em;
+
+    
+}
+.id{
+    background-color: #808080;
+    color: white;   
+}
+.ids{
+    background-color:#808080;
+    color: white;   
+}
+
+a{
+    text-decoration: none;
+    
+}
+.registrar{
+    color: white;
+    
+}
+.ver_alumnos{
+    color: white;
+}
+
+.table{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 90.9%;
+    border:none;
+    background-color: white;
+    border-collapse:collapse;
+}
+table th{
+    border: none;
+    text-align: center;
+    margin: 0;
+    padding:.6em;
+    border:1px solid black;
+    background-color:#E5E7E9 ;
+    
+}
+table td{
+    border: none;
+    background-color:white;
+    text-align: center;
+    border:1px solid black;
+    padding:.4em;
+    
+}
+
+table tr{
+    
+}
+
+.option{
+    background:white;
+    color:black;
+}
+.editar{
+    background:white;
+    color: black;
+    padding: .2em 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.eliminar{
+    background: black;
+    color: white;
+    padding: .2em 1em;
+    border-radius: 5px;
+}
