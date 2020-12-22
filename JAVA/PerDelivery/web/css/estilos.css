@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    margin:0;
+    min-height: 100vh;
+    background-image: url(../img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 70%;
+    margin-top: 50px;
+    
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width:93%;
+    border-collapse:collapse;
+    border: .3px solid #00FF00;
+    background-color: rgba(0,0,0,.8);
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.contheader{
+    padding: .8em;
+    width:90%;
+    background:none;
+    border-top:2px solid #00FF00;
+    background-color: rgba(0,0,0,.9);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+tr th{
+    padding: 0.7em;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    background-color: rgba(0,0,0,.9);
+}
+tr td{
+    padding: 0.5em;
+    text-align: center;
+    color:#00FF00;
+}
+a{
+    text-decoration: none;
+}
+.flex a{
+    color:white;
+    background:black;
+    padding: 0.6em;
+    width: 120px;
+    text-align: center;
+    border-radius: 3px;
+    border-top:2px solid #00FF00;
+}
+.flex a:hover{
+    color:black;
+    background:#00FF33 ;
+    font-weight: bold;
+    border-top:2px solid white;
+}
+
+input[type="search"]{
+    
+    padding:0.7em;
+    border-radius:10px;
+    outline: none;
+    background-color: rgba(0,0,0,.9);
+    border:1px solid #00FF00;
+    color:#00FF00;
+}
+input[type="submit"]{
+    padding:0.7em;
+    border-radius:10px;
+    outline: none;
+    border:0px solid #00FF00;
+    background-color:#00FF00;
+    font-weight: bold;
+}
+
+.editar{
+    padding: .3em 1em;
+    background-color: rgba(0,0,0,1);
+    color: #00FF00;
+    border-radius: 3px;
+    font-family:Arial;
+    border:1px solid #00FF00;
+}
+.eliminar{
+    padding: .3em 1em;
+    background: #00FF00;
+    color:black;
+    border-radius: 3px;
+    font-family:Arial;
+    border:1px solid #00FF00;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
